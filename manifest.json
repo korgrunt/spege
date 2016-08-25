@@ -7,9 +7,11 @@
   "permissions":[
     "http://*/*",
     "https://*/*",
-    "tabs",
     "windows"
   ],
+  "permissions": [
+    "tabs"
+],
   "browser_action":{
     "default_icon": "img/icon.png",
     "default_popup": "popup.html"
